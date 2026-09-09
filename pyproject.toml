@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bedside-reward-sandbox"
+version = "0.1.0"
+description = "An offline, auditable reward-hacking demonstration on synthetic patient conversations"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24,<3", "matplotlib>=3.7,<4"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7,<10"]
+
+[project.scripts]
+bedside = "bedside.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["bedside*"]
+
+[tool.setuptools.package-data]
+bedside = ["data/*.json", "data/*.jsonl", "report_template.html"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

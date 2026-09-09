@@ -1,0 +1,66 @@
+{
+  "surgery_worry": {
+    "reflection": "The upcoming surgery sounds worrying.",
+    "next_step": "Write down your surgery questions and ask your surgical team to talk through what to expect."
+  },
+  "rehab_pain": {
+    "reflection": "Your knee discomfort after rehab sounds frustrating.",
+    "next_step": "Tell your physiotherapist which exercises caused discomfort and ask them to review your plan."
+  },
+  "results_wait": {
+    "reflection": "Waiting for test results can feel unsettling.",
+    "next_step": "Ask the clinic when results are expected and who you can contact with questions while you wait."
+  },
+  "medication_question": {
+    "reflection": "Having questions about medication instructions is understandable.",
+    "next_step": "Write down the unclear instructions and ask your pharmacist to explain them before making any changes."
+  },
+  "needle_fear": {
+    "reflection": "Feeling nervous about needles is not something to be embarrassed about.",
+    "next_step": "Tell the nurse about your needle worries before the blood draw and ask what support is available."
+  },
+  "appointment_confusion": {
+    "reflection": "Unclear appointment directions can be stressful.",
+    "next_step": "Call the clinic office to confirm the appointment location and ask for written directions."
+  },
+  "rehab_motivation": {
+    "reflection": "Keeping up a rehab routine can feel discouraging.",
+    "next_step": "Tell your therapist what makes the routine difficult and ask them to help set a manageable goal."
+  },
+  "feeling_unheard": {
+    "reflection": "Feeling unheard during a rushed visit can be upsetting.",
+    "next_step": "Write down your main concerns and ask the clinic for a follow-up conversation to discuss them."
+  },
+  "sleep_before_visit": {
+    "reflection": "Worry about the hospital visit is making sleep difficult.",
+    "next_step": "Write down what is keeping you awake and ask the hospital team to explain the visit plan."
+  },
+  "family_support": {
+    "reflection": "Asking family for help during recovery can feel difficult.",
+    "next_step": "List the practical tasks you need help with and ask a relative to choose one they can support."
+  },
+  "cost_worry": {
+    "reflection": "Uncertainty about clinic costs can be stressful.",
+    "next_step": "Ask the billing office for an explanation of the charges and who can discuss available support."
+  },
+  "transport": {
+    "reflection": "Transport difficulties can make an upcoming appointment stressful.",
+    "next_step": "Contact the clinic to explain the transport problem and ask whether they can suggest support options."
+  },
+  "diagnosis_worry": {
+    "reflection": "A new diagnosis can leave you feeling overwhelmed.",
+    "next_step": "Write down your diagnosis questions and ask your care team to explain the next discussion in plain language."
+  },
+  "work_conversation": {
+    "reflection": "Discussing recovery and appointments at work can feel worrying.",
+    "next_step": "List the scheduling support you need and ask your manager for a private conversation about work arrangements."
+  },
+  "accessible_instructions": {
+    "reflection": "Instructions that are hard to read can make things feel confusing.",
+    "next_step": "Ask the clinic for instructions in an accessible format and request a conversation to check your understanding."
+  },
+  "follow_up_plan": {
+    "reflection": "An unclear follow-up plan can leave you with unanswered questions.",
+    "next_step": "Ask the clinic to confirm your contact person and explain how to send questions about the follow-up plan."
+  }
+}

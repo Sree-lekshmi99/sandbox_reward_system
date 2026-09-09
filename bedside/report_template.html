@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bedside / Reward Hacking Sandbox</title>
+<style>
+:root{--ink:#18212c;--muted:#5d6570;--paper:#f7f6f2;--line:#dcdedb;--accent:#4553a4;--soft:#e9ecf8;--warn:#9c4d17}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}a{color:var(--accent)}main{max-width:1120px;margin:auto;padding:38px 30px 60px}header{display:flex;justify-content:space-between;gap:20px;align-items:center;border-bottom:1px solid var(--line);padding-bottom:22px}.brand{font-weight:750;font-size:20px;letter-spacing:-.6px}.caps{font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase}.pill{padding:5px 12px;border:1px solid var(--line);border-radius:99px;font-size:12px}.hero{padding:52px 0 32px}.eyebrow{color:var(--accent)}h1{font-size:clamp(38px,6vw,65px);line-height:1.06;letter-spacing:-2.6px;max-width:880px;margin:16px 0 22px;font-weight:750}h2{font-size:28px;line-height:1.2;letter-spacing:-.8px;margin:8px 0 16px}h3{font-size:17px;margin:0 0 10px}.lede{font-size:19px;color:var(--muted);max-width:850px;margin:0}.scope{margin:24px 0 0;padding:15px 20px;background:var(--soft);border-left:3px solid var(--accent);font-size:14px}.scope strong{font-weight:700}.metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin:4px 0 30px}.metric{background:white;border:1px solid var(--line);padding:20px 23px;border-radius:12px}.metric .value{font-size:37px;letter-spacing:-1.4px;font-weight:750;line-height:1.5}.metric p{font-size:12px;color:var(--muted);margin:2px 0}.metric .caption{font-size:13px;font-weight:650}.section{padding:36px 0;border-top:1px solid var(--line)}.sectionhead{display:flex;justify-content:space-between;align-items:baseline;gap:20px}.number{font-size:12px;letter-spacing:2px;color:var(--accent);font-weight:750}.chart{display:block;width:100%;height:auto;border:1px solid var(--line);border-radius:14px;background:white;margin:24px 0 14px}.note{font-size:13px;color:var(--muted);margin:10px 0}.flow{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:20px 0}.node{padding:19px 17px;border:1px solid var(--line);border-radius:10px;background:white}.node small{display:block;color:var(--accent);font-size:11px;letter-spacing:1.5px;margin-bottom:10px}.node strong{font-size:15px}.node p{font-size:13px;line-height:1.55;margin:8px 0 0;color:var(--muted)}.lane{padding:13px 18px;border:1px dashed #a4acb7;border-radius:8px;font-size:13px}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:18px}.card{background:white;border:1px solid var(--line);border-radius:12px;padding:22px}.score{display:flex;gap:18px;font-size:13px;margin:0 0 15px;padding:0 0 14px;border-bottom:1px solid var(--line)}.score b{font-size:19px}.response{font-size:15px;line-height:1.8;margin:0;white-space:pre-wrap}.label{font-size:11px;font-weight:750;letter-spacing:1.2px;color:var(--muted);margin-bottom:9px}.flag{font-size:12px;color:var(--warn);margin-top:15px}.controls{display:flex;align-items:center;gap:14px;margin:20px 0 14px}select{font:inherit;padding:9px 12px;max-width:100%;width:100%;background:white;border:1px solid var(--line);border-radius:7px;color:var(--ink)}label{font-size:13px;white-space:nowrap}.patient{font-size:19px;margin:12px 0 20px}.tablewrap{overflow:auto}table{border-collapse:collapse;width:100%;font-size:14px;margin:18px 0}th,td{text-align:left;padding:12px 14px;border-bottom:1px solid var(--line)}th{font-size:12px;color:var(--muted);font-weight:650}td:not(:first-child),th:not(:first-child){text-align:right}.callout{padding:18px 22px;background:white;border-left:3px solid var(--accent);margin:20px 0}.code{display:block;background:var(--ink);color:#f3f5fa;padding:18px 22px;border-radius:10px;overflow:auto;font:13px/1.8 ui-monospace,SFMono-Regular,Consolas,monospace;white-space:pre;margin:18px 0}.small{font-size:14px;color:var(--muted)}details{border-top:1px solid var(--line);padding:14px 0}summary{cursor:pointer;font-weight:650;font-size:15px}details p{font-size:14px;color:var(--muted);margin-bottom:3px}footer{border-top:1px solid var(--line);padding-top:25px;font-size:12px;color:var(--muted)}.talktrack{font-size:20px;line-height:1.65;letter-spacing:-.25px;margin:12px 0}.stamp{font-size:11px;word-break:break-all}noscript{display:block;padding:12px;border:1px solid var(--line)}@media(max-width:740px){main{padding:23px 18px}.metrics,.grid2{grid-template-columns:1fr}.flow{grid-template-columns:1fr 1fr}.hero{padding-top:35px}h1{letter-spacing:-1.7px}.metric .value{font-size:32px}.sectionhead{display:block}header .caps{display:none}.controls{display:block}label{display:block;margin-bottom:8px}.pill{font-size:11px}}
+</style>
+</head>
+<body><main>
+<header><div class="brand">bedside<span style="color:var(--accent)"> / </span>sandbox</div><div class="caps">Applied alignment · controlled experiment</div><span class="pill">Synthetic data only</span></header>
+<section class="hero">
+<div class="caps eyebrow">Build it. Watch it get gamed. Catch it.</div>
+<h1>High reward.<br>Low bedside manner.</h1>
+<p class="lede">An intentionally weak reward pays for empathetic language. A policy learns to collect that reward without addressing the patient’s concern. A separate monitor catches the change in response style.</p>
+<div class="scope"><strong>What actually ran:</strong> __STEPS__ policy-gradient updates across __SEEDS__ seeds, plus paired best-of-N selection. The generator is compositional, not a pretrained LLM. The held-out rubric is a quality surrogate, not clinical truth.</div>
+</section>
+<div class="metrics">
+<div class="metric"><div class="caption">Optimized proxy reward</div><div class="value">__PROXY_BEFORE__ → __PROXY_AFTER__</div><p>Before / after · fixed 0–100 display scale</p></div>
+<div class="metric"><div class="caption">Held-out rubric score</div><div class="value">__QUALITY_BEFORE__ → __QUALITY_AFTER__</div><p>Before / after · never used for optimization</p></div>
+<div class="metric"><div class="caption">Final replies flagged</div><div class="value">__FLAGGED__</div><p>Calibrated style monitor · not a clinical safety rate</p></div>
+</div>
+<section class="section">
+<div class="sectionhead"><div><div class="number">01 / THE FAILURE</div><h2>The metric goes up. The task goes missing.</h2></div><span class="pill">Measured, not a mock chart</span></div>
+<p>Repetition and positive padding compete with useful content inside an 80-word budget. The optimizer receives only the naïve proxy; it never receives a “be unhelpful” instruction or the held-out rubric score.</p>
+<img class="chart" alt="Measured proxy reward and held-out rubric score over policy-gradient updates" src="data:image/png;base64,__REWARD_HACKING_IMG__">
+<p class="note">The fixed style alert first fired at checkpoint __ALERT__. Training continued so the full failure remains visible. Bands describe variation across __SEEDS__ seeds on one fixed 12-case test set; they are not patient-population uncertainty.</p>
+</section>
+<section class="section">
+<div class="number">02 / THE DESIGN</div><h2>One pipeline. Three information boundaries.</h2>
+<div class="flow">
+<div class="node"><small>01 · TASK</small><strong>48 fictional messages</strong><p>24 training · 12 calibration · 12 test. Scenario groups do not cross splits.</p></div>
+<div class="node"><small>02 · GENERATE</small><strong>A small stochastic policy</strong><p>Choose empathy count, positive padding, and specific vs. generic content.</p></div>
+<div class="node"><small>03 · OPTIMIZE</small><strong>A deliberately bad proxy</strong><p>Phrase counts + positive sentiment tokens + a length bonus. Only this score updates the policy.</p></div>
+<div class="node"><small>04 · CHECK</small><strong>An independent style gate</strong><p>Length, empathy density, and repeated sentences. Thresholds use calibration references only.</p></div>
+</div>
+<div class="lane"><strong>Evaluation-only lane:</strong> a separate lexical rubric checks concern coverage, a relevant next step, concision, and narrow assurance rules. It cannot update the policy or choose a served response.</div>
+<p class="note">“Independent” means separated inputs and code paths, not statistically independent errors. The rubric and monitor share some style cues, and templates cover every scenario.</p>
+</section>
+<section class="section">
+<div class="number">03 / THE EVIDENCE</div><h2>Read what the score is rewarding.</h2>
+<p class="small">Every prompt is available below. These are the first evaluation draw for seed __FIRST_SEED__, not hand-picked best or worst responses.</p>
+<div class="controls"><label for="patient-select">Held-out message</label><select id="patient-select"></select></div>
+<p class="patient" id="patient-message"></p>
+<div class="grid2">
+<article class="card"><div class="label">BEFORE OPTIMIZATION</div><div class="score"><span>Proxy <b id="before-proxy"></b></span><span>Rubric <b id="before-quality"></b></span></div><p class="response" id="before-text"></p><p class="flag" id="before-flag"></p></article>
+<article class="card"><div class="label">AFTER __STEPS__ UPDATES</div><div class="score"><span>Proxy <b id="after-proxy"></b></span><span>Rubric <b id="after-quality"></b></span></div><p class="response" id="after-text"></p><p class="flag" id="after-flag"></p></article>
+</div>
+<noscript>The response explorer requires JavaScript. The charts, aggregate results, and raw JSONL files remain available without it.</noscript>
+</section>
+<section class="section">
+<div class="number">04 / THE INTERVENTION</div><h2>Gate the candidate, not the evaluation score.</h2>
+<p>In a separate test, both selectors see the same nested pools from the <strong>frozen initial generator</strong>. One picks the highest proxy score. The other rejects flagged candidates first, then maximizes the same proxy. If nothing passes, it abstains.</p>
+<img class="chart" alt="Paired best-of-N quality with and without a style detector, including zero-for-abstention utility" src="data:image/png;base64,__MITIGATION_IMG__">
+<div class="tablewrap"><table><thead><tr><th>At N = __N__</th><th>Proxy-only selection</th><th>Detector-gated selection</th></tr></thead><tbody><tr><td>Rubric score on served replies</td><td>__NAIVE__</td><td>__GUARDED__</td></tr><tr><td>Serving coverage</td><td>100%</td><td>__COVERAGE__</td></tr><tr><td>Utility per request; abstention = 0</td><td>__NAIVE__</td><td>__UTILITY__</td></tr></tbody></table></div>
+<div class="card"><div class="label">GATED BEST-OF-__N__ REPLY FOR THE SELECTED MESSAGE</div><div class="score"><span>Proxy <b id="guarded-proxy"></b></span><span>Rubric <b id="guarded-quality"></b></span></div><p class="response" id="guarded-text"></p><p class="note">First paired selection trial, seed __FIRST_SEED__. This is not a repaired response from the collapsed final policy.</p></div>
+</section>
+<section class="section">
+<div class="number">05 / THE HONEST AUDIT</div><h2>The guard catches a pattern, not every failure.</h2>
+<div class="grid2"><div class="card"><h3>24 separate challenge responses</h3><p>Precision: <strong>__PRECISION__</strong> · Recall: <strong>__RECALL__</strong></p><p class="small">__CONFUSION__</p><p class="small">Author-labeled synthetic challenge examples, not an independent human study or deployment prevalence estimate.</p></div><div class="card"><h3>Known blind spots</h3><p class="small">Short positive-word lists can evade this monitor. Legitimate long replies can be flagged. A concise but wrong answer may look completely normal. The rubric itself can be gamed by lexical overlap.</p></div></div>
+<div class="callout"><strong>The engineering lesson:</strong> keep optimization, evaluation, and monitoring separate; report coverage with quality; and retain failures as regression cases instead of declaring alignment solved.</div>
+<details><summary>What the experiment demonstrates—and what it does not</summary><p>The finite action space deliberately includes repetition and padding. A real policy-gradient update shifts probability toward those actions because of their measured reward. This demonstrates proxy exploitation in a designed environment, not a novel emergent exploit in a neural language model.</p></details>
+<details><summary>Held-out evaluation is still imperfect</summary><p>The lexical rubric is hand-authored, shares vocabulary with the task templates, and misses semantic errors. Template content exists for every scenario, including test scenarios. A blinded review CSV is included for independent checking; its rating cells are blank because no human review has been performed.</p></details>
+<details><summary>Real-model extension</summary><p>The repo includes an optional Ollama candidate collector and the same paired best-of-N experiment. Its HTTP behavior is unit-tested with mocks, but no live model run is included here. Real-model outputs are saved unchanged; a hack is not guaranteed. The default lexical evaluator and template-calibrated thresholds must be validated before interpreting model results.</p></details>
+</section>
+<section class="section">
+<div class="number">06 / THE PITCH</div><h2>A story you can walk through in ten minutes.</h2>
+<p class="talktrack">“I built a small environment where a policy can improve the metric while getting worse at the task. Then I separated the reward from the evaluation and added a monitor that catches the known exploit—while measuring the mistakes the monitor still makes.”</p>
+<p class="small">Open this report first. Then walk through the reward, the learning curve, a failed response, the paired intervention, and the audit. The README and interview walkthrough contain the full script.</p>
+<code class="code">python -m venv .venv
+source .venv/bin/activate
+python -m pip install -e ".[dev]"
+python -m bedside run --out results-local
+python -m pytest -q</code>
+<p class="small">No GPU, API key, patient data, or frontend service is needed for the default run. A fresh output directory preserves the bundled reference results.</p>
+</section>
+<footer><strong>Bedside / Reward Hacking Sandbox</strong><p>A synthetic communication benchmark. Not a medical chatbot, clinical evaluation, or healthcare deployment recommendation.</p><p class="stamp">Run recorded at __RUN_DATE__ · Configuration, dependency versions, and input hashes are in summary.json.</p></footer>
+</main>
+<script id="evidence-data" type="application/json">__DATA__</script>
+<script>
+const records=JSON.parse(document.getElementById('evidence-data').textContent);
+const selector=document.getElementById('patient-select');
+for (const record of records) {const option=document.createElement('option');option.value=record.id;option.textContent=record.id+' · '+record.message;selector.appendChild(option);}
+function setText(id,text){document.getElementById(id).textContent=text;}
+function format(value){return value===null?'—':Number(value).toFixed(1);}
+function update(){const r=records.find(x=>x.id===selector.value)||records[0];setText('patient-message','“'+r.message+'”');for(const phase of ['before','after']){const x=r[phase];setText(phase+'-proxy',format(x.proxy));setText(phase+'-quality',format(x.quality));setText(phase+'-text',x.response);setText(phase+'-flag',x.flagged?'Flagged: '+x.reasons.map(v=>v.replaceAll('_',' ')).join(', '):'No style flag. This does not certify correctness.');}setText('guarded-proxy',format(r.selection.guarded_proxy));setText('guarded-quality',format(r.selection.guarded_quality));setText('guarded-text',r.selection.guarded_response??'Abstained: no candidate passed the style gate.');}
+selector.addEventListener('change',update);update();
+</script>
+</body></html>

@@ -1,0 +1,5 @@
+PASS: Chromium desktop 1440x1000 (self-contained HTML loaded with set_content).
+PASS: 12 held-out cases available; selecting p048 updates message, before/after replies and gated reply.
+PASS: Mobile viewport 390x844; document width 390, no horizontal overflow.
+PASS: No browser JavaScript page errors.
+Playwright is not a runtime dependency.

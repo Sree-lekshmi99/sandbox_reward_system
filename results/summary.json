@@ -1,0 +1,322 @@
+{
+  "status": "executed_offline_compositional_policy",
+  "generated_at_utc": "2026-09-09T21:24:39.628479+00:00",
+  "config": {
+    "seeds": [
+      7,
+      19,
+      42,
+      73,
+      101
+    ],
+    "steps": 300,
+    "batch_size": 48,
+    "learning_rate": 0.3,
+    "eval_every": 20,
+    "eval_samples": 16,
+    "selection_trials": 12,
+    "budgets": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ]
+  },
+  "split_counts": {
+    "train": 24,
+    "calibration": 12,
+    "test": 12
+  },
+  "data_hashes": {
+    "detector_challenge.jsonl": "f7b0a88c62d24c21b32efbe8a3fd650b9a4fdd29e2ba044f88e9a862938c336a",
+    "generator_templates.json": "634fd783c079d02aa36f946d9c3bdae6eeded8c1f69690dfd63e4dd4daa1da2a",
+    "patients.jsonl": "050e0803d50723f496ae0d2026ed384d05c8e6202ec5f2e0dc8d086e8cfe38ff",
+    "rubric.json": "8a89aea4db7e0b3091938e0d8d09ff463f2fbeadb972135ff369c4dafb3c12d0"
+  },
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8"
+  },
+  "training": {
+    "initial": {
+      "proxy": {
+        "mean": 15.215854166666668,
+        "low": 14.698312499999997,
+        "high": 15.876541666666668
+      },
+      "quality": {
+        "mean": 88.26506912473921,
+        "low": 87.5585331770268,
+        "high": 89.14260200923803
+      },
+      "flagged": {
+        "mean": 0.08125000000000002,
+        "low": 0.06875,
+        "high": 0.09375000000000001
+      },
+      "words": {
+        "mean": 31.494791666666668,
+        "low": 31.139583333333338,
+        "high": 31.87083333333333
+      },
+      "empathy_hits": {
+        "mean": 1.496875,
+        "low": 1.4239583333333334,
+        "high": 1.5614583333333334
+      }
+    },
+    "final": {
+      "proxy": {
+        "mean": 98.87329166666667,
+        "low": 98.60597916666666,
+        "high": 99.13720833333333
+      },
+      "quality": {
+        "mean": 29.17293729160989,
+        "low": 27.33515066446568,
+        "high": 31.194740214279964
+      },
+      "flagged": {
+        "mean": 0.996875,
+        "low": 0.990625,
+        "high": 1.0
+      },
+      "words": {
+        "mean": 73.80520833333333,
+        "low": 73.409375,
+        "high": 74.21145833333333
+      },
+      "empathy_hits": {
+        "mean": 15.820833333333335,
+        "low": 15.76666666666667,
+        "high": 15.879166666666666
+      }
+    },
+    "proxy_delta": {
+      "mean": 83.65743749999999,
+      "low": 83.14214583333333,
+      "high": 84.17247916666666
+    },
+    "quality_delta": {
+      "mean": -59.09213183312933,
+      "low": -60.83048751464967,
+      "high": -57.00646199609895
+    },
+    "first_style_alert_step": 80
+  },
+  "selection": {
+    "1": {
+      "naive_proxy": {
+        "mean": 15.025361111111113,
+        "low": 14.309047916666666,
+        "high": 15.808055555555558
+      },
+      "naive_quality": {
+        "mean": 88.82701678314424,
+        "low": 87.14703344721727,
+        "high": 90.58736905115583
+      },
+      "guarded_quality": {
+        "mean": 90.94302594931487,
+        "low": 89.7351034406461,
+        "high": 92.16367110429408
+      },
+      "guarded_utility": {
+        "mean": 84.24814814814815,
+        "low": 82.46990740740742,
+        "high": 86.02638888888889
+      },
+      "coverage": {
+        "mean": 0.9263888888888887,
+        "low": 0.913888888888889,
+        "high": 0.9430555555555555
+      }
+    },
+    "2": {
+      "naive_proxy": {
+        "mean": 19.497555555555554,
+        "low": 18.170166666666667,
+        "high": 20.722399999999986
+      },
+      "naive_quality": {
+        "mean": 84.35241437484085,
+        "low": 83.22972423818013,
+        "high": 85.81320753048695
+      },
+      "guarded_quality": {
+        "mean": 88.5147792022792,
+        "low": 87.71988798238797,
+        "high": 89.19117456617457
+      },
+      "guarded_utility": {
+        "mean": 88.27083333333333,
+        "low": 87.30787037037037,
+        "high": 89.11435185185185
+      },
+      "coverage": {
+        "mean": 0.9972222222222221,
+        "low": 0.9944444444444445,
+        "high": 1.0
+      }
+    },
+    "4": {
+      "naive_proxy": {
+        "mean": 25.894055555555553,
+        "low": 24.657249999999998,
+        "high": 27.12152777777778
+      },
+      "naive_quality": {
+        "mean": 82.33914170111602,
+        "low": 80.40367305171226,
+        "high": 84.2746103505198
+      },
+      "guarded_quality": {
+        "mean": 87.78842592592592,
+        "low": 86.66574074074074,
+        "high": 88.91179398148148
+      },
+      "guarded_utility": {
+        "mean": 87.78842592592592,
+        "low": 86.66574074074074,
+        "high": 88.91179398148148
+      },
+      "coverage": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0
+      }
+    },
+    "8": {
+      "naive_proxy": {
+        "mean": 34.354416666666665,
+        "low": 33.30527777777778,
+        "high": 35.74952777777777
+      },
+      "naive_quality": {
+        "mean": 81.5681634549088,
+        "low": 80.21361510424654,
+        "high": 82.80030474997903
+      },
+      "guarded_quality": {
+        "mean": 90.29027777777779,
+        "low": 87.66064814814816,
+        "high": 92.2712962962963
+      },
+      "guarded_utility": {
+        "mean": 90.29027777777779,
+        "low": 87.66064814814816,
+        "high": 92.2712962962963
+      },
+      "coverage": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0
+      }
+    },
+    "16": {
+      "naive_proxy": {
+        "mean": 44.50463888888889,
+        "low": 43.731750000000005,
+        "high": 45.21336111111111
+      },
+      "naive_quality": {
+        "mean": 79.63152614463567,
+        "low": 78.54522372192652,
+        "high": 80.51894778445669
+      },
+      "guarded_quality": {
+        "mean": 93.08353174603175,
+        "low": 91.71593915343915,
+        "high": 94.46574074074076
+      },
+      "guarded_utility": {
+        "mean": 93.08353174603175,
+        "low": 91.71593915343915,
+        "high": 94.46574074074076
+      },
+      "coverage": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0
+      }
+    },
+    "32": {
+      "naive_proxy": {
+        "mean": 56.86777777777777,
+        "low": 56.16755555555555,
+        "high": 57.42875
+      },
+      "naive_quality": {
+        "mean": 76.5781707401741,
+        "low": 74.31662586352988,
+        "high": 78.7662223617074
+      },
+      "guarded_quality": {
+        "mean": 93.43591269841271,
+        "low": 92.00694444444443,
+        "high": 94.35489417989417
+      },
+      "guarded_utility": {
+        "mean": 93.43591269841271,
+        "low": 92.00694444444443,
+        "high": 94.35489417989417
+      },
+      "coverage": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0
+      }
+    },
+    "64": {
+      "naive_proxy": {
+        "mean": 70.35769444444445,
+        "low": 69.73597222222223,
+        "high": 70.92891666666667
+      },
+      "naive_quality": {
+        "mean": 70.21561353962993,
+        "low": 68.67540861152187,
+        "high": 71.75581846773797
+      },
+      "guarded_quality": {
+        "mean": 90.98002645502645,
+        "low": 89.9772486772487,
+        "high": 92.075
+      },
+      "guarded_utility": {
+        "mean": 90.98002645502645,
+        "low": 89.9772486772487,
+        "high": 92.075
+      },
+      "coverage": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0
+      }
+    }
+  },
+  "detector": {
+    "tp": 8,
+    "fp": 2,
+    "tn": 10,
+    "fn": 4,
+    "precision": 0.8,
+    "recall": 0.6666666666666666,
+    "false_positive_rate": 0.16666666666666666,
+    "n": 24,
+    "label_provenance": "Author-labeled synthetic challenges, not an independent human study"
+  },
+  "caveats": [
+    "Controlled compositional generator, not a pretrained LLM or PPO run",
+    "Rubric score is a lexical surrogate, not true quality or clinical validation",
+    "Detector never sees the rubric; both share some observable style cues",
+    "Template content covers all scenarios, including held-out cases",
+    "Selection mitigation uses the frozen initial policy, not the collapsed final policy",
+    "Intervals resample seeds only; the fixed 12-case test set is not a population sample",
+    "Optional Ollama backend is not exercised in this bundled experiment"
+  ]
+}

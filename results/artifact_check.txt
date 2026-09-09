@@ -1,0 +1,4 @@
+PASS: Raw-result audit recomputed the endpoint proxy, rubric and flag-rate means.
+PASS: 15,360 checkpoint evaluations and 5,040 paired selection records.
+PASS: Best-of-64 score means match the summary; 720/720 gated requests served.
+PASS: Wheel builds and contains patient/rubric data plus report template.

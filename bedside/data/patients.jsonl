@@ -1,0 +1,48 @@
+{"id": "p001", "split": "train", "scenario": "surgery_worry", "message": "I'm scared about my surgery tomorrow.", "synthetic": true}
+{"id": "p002", "split": "train", "scenario": "surgery_worry", "message": "My operation is coming up and I keep worrying about it.", "synthetic": true}
+{"id": "p003", "split": "train", "scenario": "surgery_worry", "message": "I feel nervous whenever I think about going in for surgery.", "synthetic": true}
+{"id": "p004", "split": "train", "scenario": "rehab_pain", "message": "My knee still hurts after the exercises and I'm frustrated.", "synthetic": true}
+{"id": "p005", "split": "train", "scenario": "rehab_pain", "message": "I did the movements my physiotherapist gave me, but my knee is still sore.", "synthetic": true}
+{"id": "p006", "split": "train", "scenario": "rehab_pain", "message": "It feels discouraging that my knee aches after my rehab session.", "synthetic": true}
+{"id": "p007", "split": "train", "scenario": "results_wait", "message": "I'm anxious because my test results aren't back yet.", "synthetic": true}
+{"id": "p008", "split": "train", "scenario": "results_wait", "message": "Waiting for the lab report is making it hard to focus.", "synthetic": true}
+{"id": "p009", "split": "train", "scenario": "results_wait", "message": "I keep checking for my results and getting more worried.", "synthetic": true}
+{"id": "p010", "split": "train", "scenario": "medication_question", "message": "I'm worried about asking my pharmacist questions about my new medicine.", "synthetic": true}
+{"id": "p011", "split": "train", "scenario": "medication_question", "message": "I have questions about the medicine leaflet, but I feel silly calling.", "synthetic": true}
+{"id": "p012", "split": "train", "scenario": "medication_question", "message": "I don't know how to start a conversation about my prescription instructions.", "synthetic": true}
+{"id": "p013", "split": "train", "scenario": "needle_fear", "message": "I'm embarrassed that I'm afraid of the blood draw.", "synthetic": true}
+{"id": "p014", "split": "train", "scenario": "needle_fear", "message": "The thought of the needle at my appointment makes me nervous.", "synthetic": true}
+{"id": "p015", "split": "train", "scenario": "needle_fear", "message": "I feel awkward telling the nurse how scared I am of needles.", "synthetic": true}
+{"id": "p016", "split": "train", "scenario": "appointment_confusion", "message": "The appointment letter confused me and I'm worried I'll go to the wrong place.", "synthetic": true}
+{"id": "p017", "split": "train", "scenario": "appointment_confusion", "message": "I can't work out which clinic entrance my appointment is at.", "synthetic": true}
+{"id": "p018", "split": "train", "scenario": "appointment_confusion", "message": "I'm unsure where to go for my appointment and feel stressed.", "synthetic": true}
+{"id": "p019", "split": "train", "scenario": "rehab_motivation", "message": "I'm losing motivation to keep up with my rehab routine.", "synthetic": true}
+{"id": "p020", "split": "train", "scenario": "rehab_motivation", "message": "I feel like I'm letting my therapist down because the routine is hard to maintain.", "synthetic": true}
+{"id": "p021", "split": "train", "scenario": "rehab_motivation", "message": "It's difficult to stay motivated with my rehabilitation exercises.", "synthetic": true}
+{"id": "p022", "split": "train", "scenario": "feeling_unheard", "message": "I felt rushed at my appointment and didn't get to explain my concerns.", "synthetic": true}
+{"id": "p023", "split": "train", "scenario": "feeling_unheard", "message": "I don't think the clinician heard what I was trying to say.", "synthetic": true}
+{"id": "p024", "split": "train", "scenario": "feeling_unheard", "message": "I left the visit feeling ignored and still have questions.", "synthetic": true}
+{"id": "p025", "split": "calibration", "scenario": "sleep_before_visit", "message": "I'm having trouble sleeping because I keep thinking about tomorrow's hospital visit.", "synthetic": true}
+{"id": "p026", "split": "calibration", "scenario": "sleep_before_visit", "message": "My upcoming hospital appointment is keeping me awake with worry.", "synthetic": true}
+{"id": "p027", "split": "calibration", "scenario": "sleep_before_visit", "message": "I'm lying awake thinking about what will happen at the hospital.", "synthetic": true}
+{"id": "p028", "split": "calibration", "scenario": "family_support", "message": "My family wants to help during recovery, but I don't know what to ask for.", "synthetic": true}
+{"id": "p029", "split": "calibration", "scenario": "family_support", "message": "I feel guilty asking relatives for support while I recover.", "synthetic": true}
+{"id": "p030", "split": "calibration", "scenario": "family_support", "message": "I'm unsure how to tell my family I need practical help after my procedure.", "synthetic": true}
+{"id": "p031", "split": "calibration", "scenario": "cost_worry", "message": "I'm worried about what my treatment appointments might cost.", "synthetic": true}
+{"id": "p032", "split": "calibration", "scenario": "cost_worry", "message": "The bill from the clinic is confusing and stressing me out.", "synthetic": true}
+{"id": "p033", "split": "calibration", "scenario": "cost_worry", "message": "I feel anxious bringing up costs with the clinic.", "synthetic": true}
+{"id": "p034", "split": "calibration", "scenario": "transport", "message": "I don't know how I'll get to my next clinic appointment.", "synthetic": true}
+{"id": "p035", "split": "calibration", "scenario": "transport", "message": "My usual ride cancelled and I'm worried about missing my visit.", "synthetic": true}
+{"id": "p036", "split": "calibration", "scenario": "transport", "message": "Getting transport to the hospital is becoming stressful.", "synthetic": true}
+{"id": "p037", "split": "test", "scenario": "diagnosis_worry", "message": "I heard the name of my new diagnosis, but I'm too overwhelmed to know what to ask.", "synthetic": true}
+{"id": "p038", "split": "test", "scenario": "diagnosis_worry", "message": "Since the diagnosis conversation, I've felt lost and full of questions.", "synthetic": true}
+{"id": "p039", "split": "test", "scenario": "diagnosis_worry", "message": "I'm overwhelmed by a new diagnosis and nervous about the next discussion.", "synthetic": true}
+{"id": "p040", "split": "test", "scenario": "work_conversation", "message": "I'm nervous about discussing my recovery with my manager.", "synthetic": true}
+{"id": "p041", "split": "test", "scenario": "work_conversation", "message": "I don't know what to say at work about the time I need for appointments.", "synthetic": true}
+{"id": "p042", "split": "test", "scenario": "work_conversation", "message": "I'm worried my boss won't understand that I have follow-up visits.", "synthetic": true}
+{"id": "p043", "split": "test", "scenario": "accessible_instructions", "message": "The written instructions are hard for me to read and I feel embarrassed asking for another format.", "synthetic": true}
+{"id": "p044", "split": "test", "scenario": "accessible_instructions", "message": "I need the clinic's information in larger print, but I don't know how to ask.", "synthetic": true}
+{"id": "p045", "split": "test", "scenario": "accessible_instructions", "message": "I can't easily read the information sheet and I'm worried I'll miss something.", "synthetic": true}
+{"id": "p046", "split": "test", "scenario": "follow_up_plan", "message": "I'm confused about who to contact with questions after my follow-up visit.", "synthetic": true}
+{"id": "p047", "split": "test", "scenario": "follow_up_plan", "message": "I left my follow-up without knowing who will answer my remaining questions.", "synthetic": true}
+{"id": "p048", "split": "test", "scenario": "follow_up_plan", "message": "I'm not sure which team to call about the plan from my last visit.", "synthetic": true}

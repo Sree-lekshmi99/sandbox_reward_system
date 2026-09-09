@@ -1,0 +1,428 @@
+{
+  "surgery_worry": {
+    "concern_groups": [
+      [
+        "surgery",
+        "operation",
+        "surgical"
+      ],
+      [
+        "worr",
+        "nervous",
+        "scared",
+        "anxious"
+      ]
+    ],
+    "action_groups": [
+      [
+        "ask",
+        "questions",
+        "talk"
+      ],
+      [
+        "team",
+        "surgeon",
+        "clinic"
+      ]
+    ]
+  },
+  "rehab_pain": {
+    "concern_groups": [
+      [
+        "knee",
+        "rehab",
+        "exercise"
+      ],
+      [
+        "pain",
+        "sore",
+        "discomfort",
+        "ache"
+      ]
+    ],
+    "action_groups": [
+      [
+        "tell",
+        "ask",
+        "review",
+        "contact"
+      ],
+      [
+        "physiotherapist",
+        "therapist",
+        "team"
+      ]
+    ]
+  },
+  "results_wait": {
+    "concern_groups": [
+      [
+        "result",
+        "lab",
+        "test"
+      ],
+      [
+        "wait",
+        "anxious",
+        "worr",
+        "unsettling"
+      ]
+    ],
+    "action_groups": [
+      [
+        "ask",
+        "contact",
+        "questions"
+      ],
+      [
+        "clinic",
+        "team",
+        "office"
+      ]
+    ]
+  },
+  "medication_question": {
+    "concern_groups": [
+      [
+        "medicine",
+        "medication",
+        "prescription",
+        "pharmacist"
+      ],
+      [
+        "question",
+        "instruction",
+        "unclear"
+      ]
+    ],
+    "action_groups": [
+      [
+        "ask",
+        "write",
+        "explain"
+      ],
+      [
+        "pharmacist",
+        "prescriber",
+        "team"
+      ]
+    ]
+  },
+  "needle_fear": {
+    "concern_groups": [
+      [
+        "needle",
+        "blood draw"
+      ],
+      [
+        "nervous",
+        "scared",
+        "fear",
+        "worr"
+      ]
+    ],
+    "action_groups": [
+      [
+        "tell",
+        "ask",
+        "talk"
+      ],
+      [
+        "nurse",
+        "team",
+        "staff"
+      ]
+    ]
+  },
+  "appointment_confusion": {
+    "concern_groups": [
+      [
+        "appointment",
+        "clinic"
+      ],
+      [
+        "direction",
+        "location",
+        "entrance",
+        "where"
+      ]
+    ],
+    "action_groups": [
+      [
+        "call",
+        "ask",
+        "confirm"
+      ],
+      [
+        "office",
+        "clinic",
+        "staff"
+      ]
+    ]
+  },
+  "rehab_motivation": {
+    "concern_groups": [
+      [
+        "rehab",
+        "routine",
+        "exercise"
+      ],
+      [
+        "motivat",
+        "discourag",
+        "difficult",
+        "hard"
+      ]
+    ],
+    "action_groups": [
+      [
+        "tell",
+        "ask",
+        "goal"
+      ],
+      [
+        "therapist",
+        "team"
+      ]
+    ]
+  },
+  "feeling_unheard": {
+    "concern_groups": [
+      [
+        "visit",
+        "appointment",
+        "unheard",
+        "rushed"
+      ],
+      [
+        "concern",
+        "question",
+        "upset",
+        "ignored"
+      ]
+    ],
+    "action_groups": [
+      [
+        "write",
+        "ask",
+        "discuss"
+      ],
+      [
+        "clinic",
+        "team",
+        "clinician"
+      ]
+    ]
+  },
+  "sleep_before_visit": {
+    "concern_groups": [
+      [
+        "sleep",
+        "awake"
+      ],
+      [
+        "hospital",
+        "visit",
+        "appointment"
+      ]
+    ],
+    "action_groups": [
+      [
+        "ask",
+        "write",
+        "explain"
+      ],
+      [
+        "team",
+        "hospital",
+        "clinic"
+      ]
+    ]
+  },
+  "family_support": {
+    "concern_groups": [
+      [
+        "family",
+        "relative"
+      ],
+      [
+        "recover",
+        "help",
+        "support"
+      ]
+    ],
+    "action_groups": [
+      [
+        "list",
+        "ask",
+        "discuss"
+      ],
+      [
+        "task",
+        "practical",
+        "support"
+      ]
+    ]
+  },
+  "cost_worry": {
+    "concern_groups": [
+      [
+        "cost",
+        "bill",
+        "charge"
+      ],
+      [
+        "worr",
+        "stress",
+        "uncertainty",
+        "anxious"
+      ]
+    ],
+    "action_groups": [
+      [
+        "ask",
+        "explanation",
+        "discuss"
+      ],
+      [
+        "billing",
+        "office",
+        "support"
+      ]
+    ]
+  },
+  "transport": {
+    "concern_groups": [
+      [
+        "transport",
+        "ride",
+        "getting"
+      ],
+      [
+        "appointment",
+        "visit",
+        "clinic",
+        "hospital"
+      ]
+    ],
+    "action_groups": [
+      [
+        "contact",
+        "ask",
+        "explain"
+      ],
+      [
+        "clinic",
+        "support",
+        "office"
+      ]
+    ]
+  },
+  "diagnosis_worry": {
+    "concern_groups": [
+      [
+        "diagnosis",
+        "diagnosed"
+      ],
+      [
+        "overwhelm",
+        "lost",
+        "question",
+        "nervous"
+      ]
+    ],
+    "action_groups": [
+      [
+        "write",
+        "ask",
+        "explain"
+      ],
+      [
+        "team",
+        "clinician",
+        "doctor"
+      ]
+    ]
+  },
+  "work_conversation": {
+    "concern_groups": [
+      [
+        "work",
+        "manager",
+        "boss"
+      ],
+      [
+        "recover",
+        "appointment",
+        "visit",
+        "scheduling"
+      ]
+    ],
+    "action_groups": [
+      [
+        "list",
+        "ask",
+        "discuss",
+        "conversation"
+      ],
+      [
+        "arrangement",
+        "support",
+        "scheduling"
+      ]
+    ]
+  },
+  "accessible_instructions": {
+    "concern_groups": [
+      [
+        "instruction",
+        "information",
+        "print"
+      ],
+      [
+        "read",
+        "accessible",
+        "format"
+      ]
+    ],
+    "action_groups": [
+      [
+        "ask",
+        "request",
+        "check"
+      ],
+      [
+        "clinic",
+        "team",
+        "staff"
+      ]
+    ]
+  },
+  "follow_up_plan": {
+    "concern_groups": [
+      [
+        "follow-up",
+        "follow up",
+        "visit",
+        "plan"
+      ],
+      [
+        "contact",
+        "question",
+        "call"
+      ]
+    ],
+    "action_groups": [
+      [
+        "ask",
+        "confirm",
+        "explain"
+      ],
+      [
+        "clinic",
+        "team",
+        "person"
+      ]
+    ]
+  }
+}

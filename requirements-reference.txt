@@ -1,0 +1,6 @@
+# Direct runtime dependencies used for the bundled experiment (Python 3.13.5).
+# Not a complete transitive/platform lock. Install the package afterward with:
+# python -m pip install -r requirements-reference.txt
+# python -m pip install -e ".[dev]"
+numpy==2.3.5
+matplotlib==3.10.8
