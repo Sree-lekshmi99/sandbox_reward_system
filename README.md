@@ -132,15 +132,4 @@ The extension initially reuses the lexical rubric and template-calibrated detect
 
 Start with `results/index.html`, then the four core files. [The ten-minute walkthrough](docs/INTERVIEW.md) contains the talk track and hard questions. [Methodology](docs/METHODS.md) documents the splits, statistics, scope, and remaining failure modes.
 
-`results/human_review.csv` contains shuffled, unlabeled responses with **blank** rating fields. Its mapping is in `human_review_key.csv`; keep the key away from reviewers. No human evaluation has been performed.
-
-## Research context
-
-This is a small demonstration, not a reproduction of these papers:
-
-- Gao, Schulman & Hilton, [*Scaling Laws for Reward Model Overoptimization*](https://arxiv.org/abs/2210.10760): proxy overoptimization under RL and best-of-N selection.
-- Coste et al., [*Reward Model Ensembles Help Mitigate Overoptimization*](https://arxiv.org/abs/2310.02743): motivation for conservative checks; this repo's guard is a **style monitor, not a reward-model ensemble**.
-- Zheng et al., [*Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena*](https://arxiv.org/abs/2306.05685): reasons not to treat an automated judge as unquestionable ground truth.
-- [Ollama chat API documentation](https://docs.ollama.com/api/chat): optional non-streaming generation adapter.
-
-**License:** MIT for this code and synthetic dataset. Third-party model licenses remain separate. This is an evaluation sandbox, not a medical chatbot or a clinical deployment recommendation.
+`results/human_review.csv` contains shuffled, unlabeled responses with **blank** rating fields. Its mapping is in `human_review_key.csv`;. No human evaluation has been performed.
