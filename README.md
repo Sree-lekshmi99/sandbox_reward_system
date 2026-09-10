@@ -126,10 +126,3 @@ python -m bedside run-bank --bank results-local/ollama-bank.jsonl \
 
 This makes **768 generation requests** for 12 test messages × 64 candidates. Resume the same collection by adding `--resume`. `run-bank` performs best-of-N selection, **not weight training**. A naturally occurring hack is not guaranteed; a negative result is still a result.
 
-The extension initially reuses the lexical rubric and template-calibrated detector. Those thresholds may misclassify normal model verbosity. Before interpreting real-model results, collect separate model-specific calibration data and validate judgments against blinded human ratings or an independently calibrated stronger judge. Do not claim this extension is medically safe or production-validated.
-
-## What to open in the interview
-
-Start with `results/index.html`, then the four core files. [The ten-minute walkthrough](docs/INTERVIEW.md) contains the talk track and hard questions. [Methodology](docs/METHODS.md) documents the splits, statistics, scope, and remaining failure modes.
-
-`results/human_review.csv` contains shuffled, unlabeled responses with **blank** rating fields. Its mapping is in `human_review_key.csv`;. No human evaluation has been performed.
